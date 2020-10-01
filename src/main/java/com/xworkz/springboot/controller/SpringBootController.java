@@ -34,7 +34,7 @@ public class SpringBootController {
 	public String save(SpringbootEntity springbootEntity, Model model) {
 		try {
 			logger.info("Started save " + springbootEntity);
-			logger.info("Invoked springboot page ");
+			logger.info("Invoked springboot page test");
 
 			if (Objects.nonNull(springbootEntity)) {
 
